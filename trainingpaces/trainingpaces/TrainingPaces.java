@@ -107,7 +107,7 @@ public class TrainingPaces {
         System.out.println("========================================");
     }
 
-    private static double convertTimeToSeconds(String timeStr) {
+    public static double convertTimeToSeconds(String timeStr) {
         if (timeStr == null || timeStr.isEmpty()) return Double.MAX_VALUE;
         String[] parts = timeStr.split(":");
         double totalSeconds;
