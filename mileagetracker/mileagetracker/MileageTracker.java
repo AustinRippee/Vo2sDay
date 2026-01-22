@@ -9,7 +9,7 @@ public class MileageTracker {
     public static void main(String[] args)
     {
 
-        //add in the ability to take a garmin .fit file and populate the fields automatically
+        //add in the ability to take a Garmin .fit file and populate the fields automatically
         //or from a CSV file that has the activity data
 
         Log currentLog = new Log();
@@ -23,8 +23,6 @@ public class MileageTracker {
         currentLog.addActivity(newAct);
 
         currentLog.displayLog();
-
-
 
     }
 }
